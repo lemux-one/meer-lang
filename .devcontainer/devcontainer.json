@@ -1,0 +1,6 @@
+{
+  "name": "Meer",
+  "dockerFile": "Dockerfile",
+  "runArgs": ["--env-file", ".devcontainer/.env"],
+  "postCreateCommand": "sh .devcontainer/postCreate.sh"
+}
