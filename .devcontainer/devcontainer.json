@@ -2,5 +2,15 @@
   "name": "Meer",
   "dockerFile": "Dockerfile",
   "runArgs": ["--env-file", ".devcontainer/.env"],
-  "postCreateCommand": "sh .devcontainer/postCreate.sh"
+  "appPort": [6499],
+  "postCreateCommand": "sh .devcontainer/postCreate.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "oven.bun-vscode",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
 }
