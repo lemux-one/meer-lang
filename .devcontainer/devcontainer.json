@@ -2,7 +2,7 @@
   "name": "Meer",
   "dockerFile": "Dockerfile",
   "runArgs": ["--env-file", ".devcontainer/.env"],
-  "appPort": [6499],
+  "appPort": [6499], // For Bun's web debugger (not working yet)
   "postCreateCommand": "sh .devcontainer/postCreate.sh",
   "customizations": {
     "vscode": {
