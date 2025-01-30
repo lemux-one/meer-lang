@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Meer programming language",
   "scripts": {
-    "dev": "bun --watch index.ts"
+    "dev": "bun --watch --inspect=localhost:6499/meer-lang index.ts"
   },
   "devDependencies": {
     "@types/bun": "^1.2.1",
